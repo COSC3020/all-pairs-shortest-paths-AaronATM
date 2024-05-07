@@ -29,3 +29,7 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case time complexity ($\Theta$) of the algorithm? Add your
 answer, including your reasoning, to this markdown file.
+
+Runtime: $\Theta (n^3)$ where n is the number of nodes in the graph
+
+Reasoning: We have 3 nested for loops that traverse graph.length to add up the distances for each node
